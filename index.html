@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id = "navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>World's biggest University</h1>
+    <p>Making website is now one of the easiest thing in the 
+    world.You just need to learn HTML, CSS,<br> JavaScript
+    and you are good to go.
+    </p>
+
+    <a href="" class="hero-btn">Visit us to know more</a>
+</div>
+</section>
+<!----------------Course------------>
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>
+        It is a long established fact that
+        a reader will be distracted by the readable 
+        content of a page when looking at its layout. 
+        The point of using Lorem Ipsum is that it has a 
+        more-or-less normal distribution of letters.
+    </p>
+
+    <!--adding content in 3 columns-->
+    <div class="row">
+
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Curabitur vel fringilla 
+            mauris. Pellentesque ut congue neque, sit 
+            amet semper augue. Vestibulum faucibus 
+            metus sed scelerisque ullamcorper. Vivamus 
+            purus mauris</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Curabitur vel fringilla 
+            mauris. Pellentesque ut congue neque, sit 
+            amet semper augue. Vestibulum faucibus 
+            metus sed scelerisque ullamcorper. Vivamus 
+            purus mauris</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Curabitur vel fringilla 
+            mauris. Pellentesque ut congue neque, sit 
+            amet semper augue. Vestibulum faucibus 
+            metus sed scelerisque ullamcorper. Vivamus 
+            purus mauris</p>
+        </div>
+
+
+    </div>
+</section>
+<!------------campus-------->
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Curabitur finibus nunc quis nisl porttitor, 
+    tempor vehicula diam placerat.
+    </p>
+
+    <div class="row">
+
+        <div class="campus-col">
+            <img src="images/london.png">
+            <!--want a color over images.
+            therefore creating anew div class-->
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/newyork.png">
+            <!--want a color over images.
+            therefore creating anew div class-->
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/washington.png">
+            <!--want a color over images.
+            therefore creating anew div class-->
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</section>
+<!--------------------------facilities----------->
+
+<section class = facilities>
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur 
+    adipiscing elit. Nunc et ullamcorper nunc. Donec eget leo diam. Phasellus vestibulum aliquet neque, nec egestas tortor bibendum quis. Nullam 
+    quis lectus eget urna dictum dignissim.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>Morbi eros ex, vehicula placerat orci ut, 
+            porta faucibus ligula. Fusce volutpat diam 
+            nibh,sit amet elementum metus sodales eget.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Playground</h3>
+            <p>Morbi eros ex, vehicula placerat orci ut, 
+            porta faucibus ligula. Fusce volutpat diam 
+            nibh,sit amet elementum metus sodales eget.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty  and Healthy Food</h3>
+            <p>Morbi eros ex, vehicula placerat orci ut, 
+            porta faucibus ligula. Fusce volutpat diam 
+            nibh,sit amet elementum metus sodales eget.</p>
+        </div>
+
+
+    </div>
+</section>
+
+<!-------testimonials-------->
+<section class="testimonials">
+    <h1>What our students Say</h1>
+    <p> Etiam euismod felis erat, vitae porttitor 
+        elit bibendum et. Sed imperdiet quam at 
+        mauris posuere vestibulum. Etiam 
+        venenatis porttitor nisi, vitae convallis
+    </p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>
+                    Sed volutpat vitae orci eget dictum. 
+                    Ut malesuada libero nec lectus feugiat congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
+                    posuere cubilia curae; Vivamus turpis ipsum,
+                </p>
+                <h3>Chrisrry</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+            </div>
+        </div>
+
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+                <p>
+                    Sed volutpat vitae orci eget dictum. 
+                    Ut malesuada libero nec lectus feugiat congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
+                    posuere cubilia curae; Vivamus turpis ipsum,
+                </p>
+                <h3>Roy Wales</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--------call to action------>
+<section class="cta">
+    <h1>Enroll for our various Online Courses<br>anywhere from World</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+
+</section>
+
+<!----------------footer------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>djfhrgnfjvnijtirjthbiytnjvivjrtgtibnyi</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>reMade by<i class="fa fa-heart-o"></i>Sharvari</p>
+</section>
+
+
+<!---JavaScript for Toggle MEnu---------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
